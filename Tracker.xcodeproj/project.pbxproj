@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B2A50E62C8432FC008F4F94 /* TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E52C8432FC008F4F94 /* TrackerApp.swift */; };
+		8B2A50E62C8432FC008F4F94 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E52C8432FC008F4F94 /* Tracker.swift */; };
 		8B2A50E82C8432FC008F4F94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E72C8432FC008F4F94 /* ContentView.swift */; };
 		8B2A50EA2C8432FC008F4F94 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E92C8432FC008F4F94 /* Item.swift */; };
 		8B2A50EC2C8432FE008F4F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A50EB2C8432FE008F4F94 /* Assets.xcassets */; };
@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		836345132C8456E50071158B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		8B2A50E22C8432FC008F4F94 /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B2A50E52C8432FC008F4F94 /* TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerApp.swift; sourceTree = "<group>"; };
+		8B2A50E52C8432FC008F4F94 /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
 		8B2A50E72C8432FC008F4F94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B2A50E92C8432FC008F4F94 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		8B2A50EB2C8432FE008F4F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		8B2A50E42C8432FC008F4F94 /* Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				8B2A50E52C8432FC008F4F94 /* TrackerApp.swift */,
+				8B2A50E52C8432FC008F4F94 /* Tracker.swift */,
 				8B2A50E72C8432FC008F4F94 /* ContentView.swift */,
 				8B2A51122C843377008F4F94 /* InstaAPI.swift */,
 				8B2A50E92C8432FC008F4F94 /* Item.swift */,
@@ -281,7 +281,7 @@
 				8B2A50E82C8432FC008F4F94 /* ContentView.swift in Sources */,
 				8B2A51132C843377008F4F94 /* InstaAPI.swift in Sources */,
 				8B2A50EA2C8432FC008F4F94 /* Item.swift in Sources */,
-				8B2A50E62C8432FC008F4F94 /* TrackerApp.swift in Sources */,
+				8B2A50E62C8432FC008F4F94 /* Tracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tracker/Preview Content\"";
-				DEVELOPMENT_TEAM = 429U9ZSTKA;
+				DEVELOPMENT_TEAM = KC7W9Z925U;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -479,7 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tracker/Preview Content\"";
-				DEVELOPMENT_TEAM = 429U9ZSTKA;
+				DEVELOPMENT_TEAM = KC7W9Z925U;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
