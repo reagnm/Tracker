@@ -12,7 +12,8 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "Tracker",
-            dependencies: []
+            dependencies: [],
+            path: "Tracker/Tracker/Tracker.swift"
         )
     ]
 )

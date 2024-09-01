@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		836345102C844E540071158B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8363450F2C844E540071158B /* .gitignore */; };
 		8B2A50E62C8432FC008F4F94 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E52C8432FC008F4F94 /* Tracker.swift */; };
 		8B2A50E82C8432FC008F4F94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E72C8432FC008F4F94 /* ContentView.swift */; };
 		8B2A50EA2C8432FC008F4F94 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E92C8432FC008F4F94 /* Item.swift */; };
@@ -442,7 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tracker/Preview Content\"";
-				DEVELOPMENT_TEAM = KC7W9Z925U;
+				DEVELOPMENT_TEAM = 429U9ZSTKA;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -480,7 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tracker/Preview Content\"";
-				DEVELOPMENT_TEAM = KC7W9Z925U;
+				DEVELOPMENT_TEAM = 429U9ZSTKA;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

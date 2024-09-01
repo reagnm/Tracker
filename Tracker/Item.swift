@@ -10,10 +10,10 @@ import SwiftData
 
 @Model
 final class User {
-    var username: String?
-    var uuid: Int
+    var username: String
+    var uuid: Int?
     
-    init(_ username: String?, _ uuid: Int) {
+    init(_ username: String, _ uuid: Int?) {
         self.username = username
         self.uuid = uuid
     }

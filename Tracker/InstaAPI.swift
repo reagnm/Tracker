@@ -9,6 +9,9 @@ import Foundation
 import Swiftagram
 
 final class InstaAPI: ObservableObject {
- 	
+    
+    
+    
+    
 }
 
