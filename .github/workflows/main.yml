@@ -29,7 +29,7 @@ jobs:
       - name: Generate Docs
         uses: fwcd/swift-docc-action@v1
         with:
-          target: NIOSSH
+          target: Tracker
           output: ./docs
           transform-for-static-hosting: 'true'
           disable-indexing: 'true'
