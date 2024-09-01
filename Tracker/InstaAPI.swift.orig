@@ -9,6 +9,16 @@ import Foundation
 import Swiftagram
 
 class InstaAPI {
+<<<<<<< HEAD
  	
 }
+=======
+    
+    
+    
+    
+    
+    
+}
 
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d

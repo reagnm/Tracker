@@ -11,7 +11,10 @@ let package = Package(
     ],
     targets: [
         .executableTarget(
-            name: "Tracker"
+            name: "Tracker",
+            dependencies: [
+                "Tracker"
+            ]
         )
     ]
 )

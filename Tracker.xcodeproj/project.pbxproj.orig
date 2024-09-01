@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+		836345102C844E540071158B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8363450F2C844E540071158B /* .gitignore */; };
+		8B2A50E62C8432FC008F4F94 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E52C8432FC008F4F94 /* Tracker.swift */; };
+=======
 		8B2A50E62C8432FC008F4F94 /* TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E52C8432FC008F4F94 /* TrackerApp.swift */; };
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 		8B2A50E82C8432FC008F4F94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E72C8432FC008F4F94 /* ContentView.swift */; };
 		8B2A50EA2C8432FC008F4F94 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E92C8432FC008F4F94 /* Item.swift */; };
 		8B2A50EC2C8432FE008F4F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A50EB2C8432FE008F4F94 /* Assets.xcassets */; };
@@ -37,10 +42,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+<<<<<<< HEAD
+/* Begin PBXCopyFilesBuildPhase section */
+		836345122C844E9D0071158B /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		836345132C8456E50071158B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		836345082C844C1D0071158B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		8363450B2C844E110071158B /* libPackageDescription.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPackageDescription.dylib; path = Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI/libPackageDescription.dylib; sourceTree = DEVELOPER_DIR; };
+		8363450F2C844E540071158B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8B2A50E22C8432FC008F4F94 /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2A50E52C8432FC008F4F94 /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+=======
+/* Begin PBXFileReference section */
 		8B2A50E22C8432FC008F4F94 /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A50E52C8432FC008F4F94 /* TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerApp.swift; sourceTree = "<group>"; };
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 		8B2A50E72C8432FC008F4F94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B2A50E92C8432FC008F4F94 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		8B2A50EB2C8432FE008F4F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,13 +107,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
+		8363450A2C844C700071158B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8363450B2C844E110071158B /* libPackageDescription.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B2A50D92C8432FC008F4F94 = {
 			isa = PBXGroup;
 			children = (
-				836345132C8456E50071158B /* Package.swift */,
+				8363450F2C844E540071158B /* .gitignore */,
+				836345082C844C1D0071158B /* Package.swift */,
 				8B2A50E42C8432FC008F4F94 /* Tracker */,
 				8B2A50F82C8432FE008F4F94 /* TrackerTests */,
 				8B2A51022C8432FE008F4F94 /* TrackerUITests */,
+				8363450A2C844C700071158B /* Frameworks */,
+=======
+		8B2A50D92C8432FC008F4F94 = {
+			isa = PBXGroup;
+			children = (
+				8B2A50E42C8432FC008F4F94 /* Tracker */,
+				8B2A50F82C8432FE008F4F94 /* TrackerTests */,
+				8B2A51022C8432FE008F4F94 /* TrackerUITests */,
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 				8B2A50E32C8432FC008F4F94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,7 +150,11 @@
 		8B2A50E42C8432FC008F4F94 /* Tracker */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				8B2A50E52C8432FC008F4F94 /* Tracker.swift */,
+=======
 				8B2A50E52C8432FC008F4F94 /* TrackerApp.swift */,
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 				8B2A50E72C8432FC008F4F94 /* ContentView.swift */,
 				8B2A51122C843377008F4F94 /* InstaAPI.swift */,
 				8B2A50E92C8432FC008F4F94 /* Item.swift */,
@@ -151,6 +200,10 @@
 				8B2A50DE2C8432FC008F4F94 /* Sources */,
 				8B2A50DF2C8432FC008F4F94 /* Frameworks */,
 				8B2A50E02C8432FC008F4F94 /* Resources */,
+<<<<<<< HEAD
+				836345122C844E9D0071158B /* Embed Libraries */,
+=======
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 			);
 			buildRules = (
 			);
@@ -254,6 +307,10 @@
 			files = (
 				8B2A50F02C8432FE008F4F94 /* Preview Assets.xcassets in Resources */,
 				8B2A50EC2C8432FE008F4F94 /* Assets.xcassets in Resources */,
+<<<<<<< HEAD
+				836345102C844E540071158B /* .gitignore in Resources */,
+=======
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +338,11 @@
 				8B2A50E82C8432FC008F4F94 /* ContentView.swift in Sources */,
 				8B2A51132C843377008F4F94 /* InstaAPI.swift in Sources */,
 				8B2A50EA2C8432FC008F4F94 /* Item.swift in Sources */,
+<<<<<<< HEAD
+				8B2A50E62C8432FC008F4F94 /* Tracker.swift in Sources */,
+=======
 				8B2A50E62C8432FC008F4F94 /* TrackerApp.swift in Sources */,
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +417,13 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+<<<<<<< HEAD
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI/**",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/swift/**",
+				);
+=======
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -370,10 +438,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
+				LIBRARY_SEARCH_PATHS = (
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/**",
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI/**",
+				);
+=======
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+<<<<<<< HEAD
+				OTHER_LDFLAGS = (
+					"\"-Xlinker -rpath -Xlinker /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI\"",
+					"-lPackageDescription",
+				);
+=======
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -417,6 +499,13 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+<<<<<<< HEAD
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI/**",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/lib/swift/**",
+				);
+=======
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -425,9 +514,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
+				LIBRARY_SEARCH_PATHS = (
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/**",
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI/**",
+				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"\"-Xlinker -rpath -Xlinker /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI\"",
+					"-lPackageDescription",
+				);
+=======
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -438,12 +541,23 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Tracker/Tracker.entitlements;
+<<<<<<< HEAD
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tracker/Preview Content\"";
 				DEVELOPMENT_TEAM = 429U9ZSTKA;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI/**";
+=======
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = KC7W9Z925U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -456,11 +570,23 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+<<<<<<< HEAD
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI,
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigfatcocks.Tracker;
+=======
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bigfatcocks.Tracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ragnm.Tracker;
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -476,12 +602,23 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Tracker/Tracker.entitlements;
+<<<<<<< HEAD
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Tracker/Preview Content\"";
 				DEVELOPMENT_TEAM = 429U9ZSTKA;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI/**";
+=======
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = KC7W9Z925U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -494,11 +631,23 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+<<<<<<< HEAD
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI,
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigfatcocks.Tracker;
+=======
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bigfatcocks.Tracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ragnm.Tracker;
+>>>>>>> ee7200652f7042adee87b8e8edbb36b11ff0b07d
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
