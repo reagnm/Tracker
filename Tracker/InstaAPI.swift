@@ -8,7 +8,7 @@
 import Foundation
 import Swiftagram
 
-class InstaAPI {
+final class InstaAPI: ObservableObject {
  	
 }
 
