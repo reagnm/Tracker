@@ -1,5 +1,5 @@
 {
-  "originHash" : "9a57e58eff17907020fce7c17928b486fe9da28246f163d1faa045bbeae01ea5",
+  "originHash" : "1737810154bc9ae8a560399c464d28f0492948b9f713c89edfe5068c2e69970a",
   "pins" : [
     {
       "identity" : "composablerequest",
@@ -20,6 +20,15 @@
       }
     },
     {
+      "identity" : "setting",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aheze/Setting",
+      "state" : {
+        "revision" : "f506b13b2024fc3e7585b6e4f8290f6f1525127c",
+        "version" : "1.0.1"
+      }
+    },
+    {
       "identity" : "swcrypt",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/sbertix/SwCrypt.git",
@@ -35,6 +44,15 @@
       "state" : {
         "revision" : "de8a5d840a81b3d0dd66f0dc45304c54f29d0fda",
         "version" : "5.4.0"
+      }
+    },
+    {
+      "identity" : "swiftui-hiddenapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Wouter01/SwiftUI-HiddenAPI",
+      "state" : {
+        "revision" : "8a022fefbe8cbe551aa7c4d405d2d9d5b6c2bfc7",
+        "version" : "1.0.0"
       }
     }
   ],

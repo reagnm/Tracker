@@ -8,32 +8,85 @@
 import Foundation
 import SwiftUI
 
-struct Sidebar3BView: View {
-    @Binding var showingSettings: Bool
+struct SidebarView: View {
     var body: some View {
-        HStack(spacing: 0) {
-            VStack {
-                Spacer()
-                NavigationLink(destination: SettingsView()) {
-                    Label("Preferences", systemImage: "person.crop.circle")
+        NavigationView {
+            List {
+                NavigationLink(destination: ContentView()) {
+                    Label("Welcome", systemImage: "star")
                 }
-                .padding(.bottom, 10)
-                .frame(width: 100)
-                .background(Color.clear)
-                .padding(.top, 50)
-                #if(ios)
-                .fullScreenCover(isPresented: $showingSettings) {
-                    SettingsView()
-                }
-                #endif
+                
                 Spacer()
+                
+                Text("DASHBOARD")
+                    .font(.system(size: 10))
+                    .fontWeight(.bold)
+                Group{
+                    NavigationLink(destination: ContentView()) {
+                        Label("Home", systemImage: "house")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Label("Websites", systemImage: "globe")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Label("Domains", systemImage: "link")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Label("Templates", systemImage: "rectangle.stack")
+                    }
+                }
+                
+                Spacer()
+                
+                Text(
+                    NSFullUserName()
+                        .split(separator:" ").first
+                        .map(String.init) ?? NSUserName()
+                )
+                    .font(.system(size: 10))
+                    .fontWeight(.bold)
+                Group {
+                    NavigationLink(destination: ContentView()) {
+                        Label("My Account", systemImage: "person")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Label("Notifications", systemImage: "bell")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Label("Settings", systemImage: "gear")
+                    }
+                }
+                
+                Spacer()
+                
+                Divider()
+                NavigationLink(destination: ContentView()) {
+                    Label("Sign Out", systemImage: "arrow.backward")
+                }
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color.white)
-            .cornerRadius(8)
-            .padding()
-            .background(Color.white)
-            .ignoresSafeArea()
+            .listStyle(SidebarListStyle())
+            .navigationTitle("Explore")
+            .frame(minWidth: 150, idealWidth: 250, maxWidth: 300)
+            .toolbar {
+                ToolbarItem(placement: .navigation) {
+                    Button(action: toggleSidebar, label: {
+                        Image(systemName: "sidebar.left")
+                    })
+                }
+            }
+            
+            ContentView()
         }
+    }
+}
+
+// Toggle Sidebar Function
+func toggleSidebar() {
+        NSApp.keyWindow?.firstResponder?.tryToPerform(#selector(NSSplitViewController.toggleSidebar(_:)), with: nil)
+}
+
+struct SidebarView_Previews: PreviewProvider {
+    static var previews: some View {
+        SidebarView()
     }
 }

@@ -9,10 +9,15 @@ let package = Package(
             targets: ["Tracker"]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/aheze/Setting", from: "1.0.1")
+        .package(url: "https://github.com/sbertix/Swiftagram", from: "5.4.0")
+        .package(url: "https://github.com/Wouter01/SwiftUI-HiddenAPI", from: "1.0")
+    ],
     targets: [
         .executableTarget(
             name: "Tracker",
-            dependencies: [],
+            dependencies: ["Setting","Swiftagram","SwiftUI-HiddenAPI"],
             path: "Tracker/Tracker/Tracker.swift"
         )
     ]

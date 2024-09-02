@@ -3,21 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		839224F42C8478570019141A /* Setting in Frameworks */ = {isa = PBXBuildFile; productRef = 839224F32C8478570019141A /* Setting */; };
+		839224F72C8478700019141A /* Swiftagram in Frameworks */ = {isa = PBXBuildFile; productRef = 839224F62C8478700019141A /* Swiftagram */; };
+		839224F92C8478700019141A /* SwiftagramCrypto in Frameworks */ = {isa = PBXBuildFile; productRef = 839224F82C8478700019141A /* SwiftagramCrypto */; };
+		839225042C847C790019141A /* SwiftUIHidden in Frameworks */ = {isa = PBXBuildFile; productRef = 839225032C847C790019141A /* SwiftUIHidden */; };
 		8B2A50E62C8432FC008F4F94 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E52C8432FC008F4F94 /* Tracker.swift */; };
-		8B2A50E82C8432FC008F4F94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E72C8432FC008F4F94 /* ContentView.swift */; };
-		8B2A50EA2C8432FC008F4F94 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50E92C8432FC008F4F94 /* Item.swift */; };
 		8B2A50EC2C8432FE008F4F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A50EB2C8432FE008F4F94 /* Assets.xcassets */; };
 		8B2A50F02C8432FE008F4F94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A50EF2C8432FE008F4F94 /* Preview Assets.xcassets */; };
 		8B2A50FA2C8432FE008F4F94 /* TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A50F92C8432FE008F4F94 /* TrackerTests.swift */; };
 		8B2A51042C8432FE008F4F94 /* TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A51032C8432FE008F4F94 /* TrackerUITests.swift */; };
 		8B2A51062C8432FE008F4F94 /* TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A51052C8432FE008F4F94 /* TrackerUITestsLaunchTests.swift */; };
-		8B2A51132C843377008F4F94 /* InstaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A51122C843377008F4F94 /* InstaAPI.swift */; };
-		8B2A51162C84352B008F4F94 /* Swiftagram in Frameworks */ = {isa = PBXBuildFile; productRef = 8B2A51152C84352B008F4F94 /* Swiftagram */; };
-		8B2A51182C84352B008F4F94 /* SwiftagramCrypto in Frameworks */ = {isa = PBXBuildFile; productRef = 8B2A51172C84352B008F4F94 /* SwiftagramCrypto */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +38,9 @@
 
 /* Begin PBXFileReference section */
 		836345132C8456E50071158B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		839581422C8477F000F3D005 /* libPackageDescription.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libPackageDescription.dylib; path = Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI/libPackageDescription.dylib; sourceTree = DEVELOPER_DIR; };
 		8B2A50E22C8432FC008F4F94 /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A50E52C8432FC008F4F94 /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
-		8B2A50E72C8432FC008F4F94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8B2A50E92C8432FC008F4F94 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		8B2A50EB2C8432FE008F4F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B2A50ED2C8432FE008F4F94 /* Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tracker.entitlements; sourceTree = "<group>"; };
 		8B2A50EF2C8432FE008F4F94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,16 +49,55 @@
 		8B2A50FF2C8432FE008F4F94 /* TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A51032C8432FE008F4F94 /* TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUITests.swift; sourceTree = "<group>"; };
 		8B2A51052C8432FE008F4F94 /* TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		8B2A51122C843377008F4F94 /* InstaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8363451B2C846E7E0071158B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+				LoginView.swift,
+				"Scene+Modifiers.swift",
+				SettingsView.swift,
+				SidebarView.swift,
+				UIKit2SwiftUI.swift,
+				UserView.swift,
+			);
+			target = 8B2A50E12C8432FC008F4F94 /* Tracker */;
+		};
+		8363451F2C84723D0071158B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				KeyRing.swift,
+			);
+			target = 8B2A50E12C8432FC008F4F94 /* Tracker */;
+		};
+		836345212C8475710071158B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				InstaAPI.swift,
+				Item.swift,
+				StorageManager.swift,
+			);
+			target = 8B2A50E12C8432FC008F4F94 /* Tracker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		836345182C846E770071158B /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8363451B2C846E7E0071158B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+		8363451C2C8472310071158B /* KeyRing */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8363451F2C84723D0071158B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = KeyRing; sourceTree = "<group>"; };
+		836345202C8475660071158B /* APIs */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (836345212C8475710071158B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = APIs; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8B2A50DF2C8432FC008F4F94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B2A51182C84352B008F4F94 /* SwiftagramCrypto in Frameworks */,
-				8B2A51162C84352B008F4F94 /* Swiftagram in Frameworks */,
+				839225042C847C790019141A /* SwiftUIHidden in Frameworks */,
+				839224F72C8478700019141A /* Swiftagram in Frameworks */,
+				839224F92C8478700019141A /* SwiftagramCrypto in Frameworks */,
+				839224F42C8478570019141A /* Setting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +118,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		839581412C8477F000F3D005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				839581422C8477F000F3D005 /* libPackageDescription.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B2A50D92C8432FC008F4F94 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +133,7 @@
 				8B2A50E42C8432FC008F4F94 /* Tracker */,
 				8B2A50F82C8432FE008F4F94 /* TrackerTests */,
 				8B2A51022C8432FE008F4F94 /* TrackerUITests */,
+				839581412C8477F000F3D005 /* Frameworks */,
 				8B2A50E32C8432FC008F4F94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,9 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				8B2A50E52C8432FC008F4F94 /* Tracker.swift */,
-				8B2A50E72C8432FC008F4F94 /* ContentView.swift */,
-				8B2A51122C843377008F4F94 /* InstaAPI.swift */,
-				8B2A50E92C8432FC008F4F94 /* Item.swift */,
+				8363451C2C8472310071158B /* KeyRing */,
+				836345182C846E770071158B /* Views */,
+				836345202C8475660071158B /* APIs */,
 				8B2A50EB2C8432FE008F4F94 /* Assets.xcassets */,
 				8B2A50ED2C8432FE008F4F94 /* Tracker.entitlements */,
 				8B2A50EE2C8432FE008F4F94 /* Preview Content */,
@@ -158,8 +204,10 @@
 			);
 			name = Tracker;
 			packageProductDependencies = (
-				8B2A51152C84352B008F4F94 /* Swiftagram */,
-				8B2A51172C84352B008F4F94 /* SwiftagramCrypto */,
+				839224F32C8478570019141A /* Setting */,
+				839224F62C8478700019141A /* Swiftagram */,
+				839224F82C8478700019141A /* SwiftagramCrypto */,
+				839225032C847C790019141A /* SwiftUIHidden */,
 			);
 			productName = Tracker;
 			productReference = 8B2A50E22C8432FC008F4F94 /* Tracker.app */;
@@ -234,7 +282,9 @@
 			);
 			mainGroup = 8B2A50D92C8432FC008F4F94;
 			packageReferences = (
-				8B2A51142C84352B008F4F94 /* XCRemoteSwiftPackageReference "Swiftagram" */,
+				839224F22C8478570019141A /* XCRemoteSwiftPackageReference "Setting" */,
+				839224F52C8478700019141A /* XCRemoteSwiftPackageReference "Swiftagram" */,
+				839224FF2C847B9F0019141A /* XCRemoteSwiftPackageReference "SwiftUI-HiddenAPI" */,
 			);
 			productRefGroup = 8B2A50E32C8432FC008F4F94 /* Products */;
 			projectDirPath = "";
@@ -278,9 +328,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B2A50E82C8432FC008F4F94 /* ContentView.swift in Sources */,
-				8B2A51132C843377008F4F94 /* InstaAPI.swift in Sources */,
-				8B2A50EA2C8432FC008F4F94 /* Item.swift in Sources */,
 				8B2A50E62C8432FC008F4F94 /* Tracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +492,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -456,14 +504,20 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI,
+				);
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI/**";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bigfatcocks.Tracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -483,6 +537,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -494,14 +549,20 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI,
+				);
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI/**";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bigfatcocks.Tracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -640,7 +701,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8B2A51142C84352B008F4F94 /* XCRemoteSwiftPackageReference "Swiftagram" */ = {
+		839224F22C8478570019141A /* XCRemoteSwiftPackageReference "Setting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aheze/Setting";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		839224F52C8478700019141A /* XCRemoteSwiftPackageReference "Swiftagram" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sbertix/Swiftagram";
 			requirement = {
@@ -648,18 +717,36 @@
 				minimumVersion = 5.4.0;
 			};
 		};
+		839224FF2C847B9F0019141A /* XCRemoteSwiftPackageReference "SwiftUI-HiddenAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wouter01/SwiftUI-HiddenAPI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8B2A51152C84352B008F4F94 /* Swiftagram */ = {
+		839224F32C8478570019141A /* Setting */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8B2A51142C84352B008F4F94 /* XCRemoteSwiftPackageReference "Swiftagram" */;
+			package = 839224F22C8478570019141A /* XCRemoteSwiftPackageReference "Setting" */;
+			productName = Setting;
+		};
+		839224F62C8478700019141A /* Swiftagram */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 839224F52C8478700019141A /* XCRemoteSwiftPackageReference "Swiftagram" */;
 			productName = Swiftagram;
 		};
-		8B2A51172C84352B008F4F94 /* SwiftagramCrypto */ = {
+		839224F82C8478700019141A /* SwiftagramCrypto */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8B2A51142C84352B008F4F94 /* XCRemoteSwiftPackageReference "Swiftagram" */;
+			package = 839224F52C8478700019141A /* XCRemoteSwiftPackageReference "Swiftagram" */;
 			productName = SwiftagramCrypto;
+		};
+		839225032C847C790019141A /* SwiftUIHidden */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 839224FF2C847B9F0019141A /* XCRemoteSwiftPackageReference "SwiftUI-HiddenAPI" */;
+			productName = SwiftUIHidden;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
